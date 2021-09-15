@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 90vh;
+    font-family: 'Playfair Display', serif;
+}
+
+h1{
+    font-size: 3rem;
+    text-align: center;
+    margin: 0;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+h3{
+    font-size: 1.8rem;
+}
+
+button{
+    font-size: 2rem;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    background-color: purple;
+    color: white;
+    width: 75%;
+    
+    
+}
+.choiceButtons{
+    display: flex;
+    flex-direction: row;
+    width: 100%;    
+    justify-content: center;
+    align-items: center;
+    margin-left: 3%;
+    margin-top: 2%;
+}
+
+
+.sectionLeft{
+float: left;
+display: flex;
+justify-content: space-around;
+align-items: center;
+margin-bottom: 25px;
+}
+
+
+.sectionRight{
+float: left;
+
+}
+
+.buttonsRight button{
+    width: 85%;
+}
+
+.freeButton{
+    width: 20%;
+    margin-left: 2%;
+    margin-right: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#skin, #med, #write, #ex{
+    margin-bottom: 50px;
+}
