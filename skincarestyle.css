@@ -60,9 +60,12 @@ button{
     
 }
 
-span{
-    font-family: 'Glory', sans-serif;
-    font-size: 10rem;
+#timeBox{
+    /* font-family: 'Glory', sans-serif; */
+    font-size: 4rem;
+    color: black;
+    text-align: center;
+    margin-bottom: 25px;
 }
 
 .inTimerButtons{
